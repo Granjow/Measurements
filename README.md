@@ -2,6 +2,14 @@
 
 This repository holds electrical measurements.
 
+AC power measurements have been taken with a RIGOL DS1054Z oscilloscope and a
+differential probe from Testec, the TT-SI 9001.
+
+**Warning: Never connect your oscilloscope to AC power with standard probes!**
+Measuring AC power requires differential probes. For standard probes, the
+reference voltage is connected internally to case ground and connecting it to
+AC will essentially connect case ground to AC.
+
 ## Inrush Current
 
 The measurements were measured over a 0.5 Ω shunt resistor.
